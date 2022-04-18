@@ -1,0 +1,49 @@
+#brand-logo {
+  font-size: 34px;
+}
+
+#app-navbar {
+  background: linear-gradient(120deg, #00e4d0, #5983e8);
+}
+
+@media (max-width: 980px) {
+  .logo {
+    width: 75vw;
+  }
+}
+
+@media (max-width: 980px) {
+  .Judul {
+    font-size: 45px !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 980px) {
+  .Judul2 {
+    font-size: 25px !important;
+    text-align: center !important;
+  }
+}
+
+body {
+  background-color: #f1f7fc;
+}
+
+div {
+}
+
+@media (max-width: 775px) {
+  .kotak {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 985px) {
+  .kotak2 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
