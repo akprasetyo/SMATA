@@ -112,7 +112,7 @@
                                 <div class="col">
                                     <div class="card shadow mb-3">
                                         <div class="card-header py-3">
-                                            <p class="text-primary m-0 fw-bold">Biodata Ketua Tim</p>
+                                            <p class="text-primary m-0 fw-bold">Biodata Peserta</p>
                                         </div>
                                         <div class="card-body">
                                             <form>
@@ -132,8 +132,8 @@
                                                         <div class="mb-3"><label class="form-label" for="jenis-lomba"><strong>Jenis Lomba</strong></label><select class="form-select" name="jenis-karya" required="">
                                                                 <optgroup label="pilih jenis karya...">
                                                                     <option value="" selected=""></option>
-                                                                    <option value="12">Infografis</option>
-                                                                    <option value="13">Esai</option>
+                                                                    <option value="12">Berbayar</option>
+                                                                    <option value="13">Gratis (Bersyarat)</option>
                                                                     <option value="14">Olimpiade</option>
                                                                 </optgroup>
                                                             </select></div>
@@ -156,7 +156,6 @@
                                                         <div class="mb-3"><label class="form-label" for="ktm"><strong>Kartu Tanda Mahasiswa</strong>&nbsp;</label><input class="form-control" type="file" id="KTM" placeholder="user@mail.com" name="KTM" required=""></div>
                                                     </div>
                                                 </div>
-                                                <div class="mb-3"><button class="btn btn-primary btn-sm" type="submit">Save Changes</button></div>
                                             </form>
                                         </div>
                                     </div>
@@ -182,7 +181,6 @@
                                                         <div class="mb-3"><label class="form-label" for="phone-num"><strong>Phone Number WhatsApp</strong></label><input class="form-control" type="tel" id="ph-ang-1" placeholder="0812892*****" name="phone-num" required=""></div>
                                                     </div>
                                                 </div>
-                                                <div class="mb-3"><button class="btn btn-primary btn-sm" type="submit">Save Changes</button></div>
                                             </form>
                                         </div>
                                     </div>
@@ -208,7 +206,26 @@
                                                         <div class="mb-3"><label class="form-label" for="phone-num"><strong>Phone Number WhatsApp</strong></label><input class="form-control" type="password" id="ph-ang-2" placeholder="0812892*****" name="phone-num" required=""></div>
                                                     </div>
                                                 </div>
-                                                <div class="mb-3"><button class="btn btn-primary btn-sm" type="submit">Save Changes</button></div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="card shadow mb-3">
+                                        <div class="card-header py-3">
+                                            <p class="text-primary m-0 fw-bold">Metode Pendaftaran</p>
+                                        </div>
+                                        <div class="card-body">
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col kotak">
+                                                        <div class="mb-3"><label class="form-label" for="pemb"><strong>Pilih Metode Pendaftaran</strong></label><select class="form-select" required="">
+                                                                <optgroup label="pilih jenis karya...">
+                                                                    <option value="" selected=""></option>
+                                                                    <option value="12">Berbayar</option>
+                                                                    <option value="13">Gratis (Bersyarat)</option>
+                                                                </optgroup>
+                                                            </select></div>
+                                                    </div>
+                                                </div>
                                             </form>
                                         </div>
                                     </div>
@@ -226,25 +243,41 @@
                                                         <div class="mb-3"><label class="form-label" for="pemb"><strong>Bukti Follow Akun Instagram @smatic_unj</strong></label><input class="form-control" type="file" id="nama-ang-4" placeholder="Nama" name="pemb" required=""></div>
                                                     </div>
                                                 </div>
-                                                <div class="mb-3"><button class="btn btn-primary btn-sm" type="submit">Save Changes</button></div>
                                             </form>
                                         </div>
                                     </div>
                                     <div class="card shadow mb-3">
                                         <div class="card-header py-3">
-                                            <p class="text-primary m-0 fw-bold">Persyaratan Tambahan</p>
+                                            <p class="text-primary m-0 fw-bold">Persyaratan Pendaftaran</p>
                                         </div>
                                         <div class="card-body">
                                             <form>
                                                 <div class="row">
                                                     <div class="col kotak">
-                                                        <div class="mb-3"><label class="form-label" for="pemb"><strong>Bukti Pembayaran</strong></label><input class="form-control" type="file" id="nama-ang-3" placeholder="Nama" name="pemb" required=""></div>
+                                                        <div class="mb-3"><label class="form-label" for="pemb"><strong>Bukti Follow Akun Instagram</strong></label><input class="form-control" type="file" id="nama-ang-5" placeholder="Nama" name="pemb" required=""></div>
                                                     </div>
                                                     <div class="col kotak2">
-                                                        <div class="mb-3"><label class="form-label" for="pemb"><strong>Bukti Follow Akun Instagram @smatic_unj</strong></label><input class="form-control" type="file" id="nama-ang-4" placeholder="Nama" name="pemb" required=""></div>
+                                                        <div class="mb-3"><label class="form-label" for="pemb"><strong>Bukti Like dan Komentar Postingan</strong></label><input class="form-control" type="file" id="nama-ang-6" placeholder="Nama" name="pemb" required=""></div>
                                                     </div>
                                                 </div>
-                                                <div class="mb-3"><button class="btn btn-primary btn-sm" type="submit">Save Changes</button></div>
+                                                <div class="row">
+                                                    <div class="col kotak">
+                                                        <div class="mb-3"><label class="form-label" for="pemb"><strong>Bukti Share Postingan ke Story Instagram</strong></label><input class="form-control" type="file" id="nama-ang-7" placeholder="Nama" name="pemb" required=""></div>
+                                                    </div>
+                                                    <div class="col kotak2">
+                                                        <div class="mb-3"><label class="form-label" for="pemb"><strong>Bukti Share Lomba ke 3 Grup Berbeda</strong></label><input class="form-control" type="file" id="nama-ang-8" placeholder="Nama" name="pemb" required=""></div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="card shadow mb-3">
+                                        <div class="card-header py-3">
+                                            <p class="text-primary d-xl-flex justify-content-xl-center m-0 fw-bold">Simpan Perubahan</p>
+                                        </div>
+                                        <div class="card-body">
+                                            <form>
+                                                <div class="d-xl-flex justify-content-xl-center"><button class="btn btn-primary btn-sm d-xl-flex justify-content-xl-center align-items-xl-center" type="submit" style="width: 157.375px;height: 55px;font-size: 17px;">Save All Changes</button></div>
                                             </form>
                                         </div>
                                     </div>
